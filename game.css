@@ -1,0 +1,76 @@
+@font-face {
+    src: url(Police/Streamster.ttf);
+    font-family: "Streamster";
+}
+
+@font-face {
+    src: url(Police/Vermin\ Vibes.ttf);
+    font-family: "Vermin";
+}
+
+@font-face {
+    src: url(Police/GuldScript_PersonalUseOnly.ttf);
+    font-family: "Guld";
+}
+
+@font-face {
+    src: url(Police/Outrun/Outrun\ future.otf);
+    font-family: "Outrun";
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(image/Wk31sJxjqrlwulRuhexVd1d42LxKPoyWogqBkFI-gBQ.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 5fr auto;
+    grid-template-columns: auto;
+    grid-template-areas: "header" "main" "footer";
+}
+
+header {
+    font-family: Streamster;
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: lighter;
+    color: seashell;
+    text-align: center;
+    text-shadow: purple 0.5em 0.1em 0.5em;
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+#board {
+    margin-top: 1em;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 500px;
+    height: 450px;
+    background-image: url(image/synthwave-pantone-gradient-grid-lines-canvas\ .jpg);
+    text-align: center;
+    border: purple solid 1px;
+}
+
+#myCanvas {
+    width: 500px;
+    height: 450px;
+}
+
+footer {
+    font-family: Outrun;
+    font-size: medium;
+    text-align: center;
+    color: seashell;
+    text-shadow: rgb(236, 17, 127) 0.1em 0.05em 0.1em;
+    grid-area: footer;
+}
